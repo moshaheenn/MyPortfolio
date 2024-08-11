@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Adel Site</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-YZl2x3Fc2d4ofGTwqiEw/PcG5rThAY2exl4N+j6vD6/N2XW3mRYXu+o9Jfwzidb0JNT5aDXk25UNuLl7iVWV3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      .bg-image {
+        background-image: url('imgs/bg1.jpg'); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+      }
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+        padding: 2rem;
+        border-radius: 0.5rem;
+      }
+      .project-hover:hover {
+        color: #007bff;
+      }
+      .footer {
+      background-color: #343a40; /* Dark background */
+      color: #ffffff; /* White text */
+      padding: 3rem 0;
+    }
+    .footer ul {
+      padding-left: 0;
+      list-style: none;
+    }
+    .footer ul li {
+      margin-bottom: 10px;
+    }
+    .footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Main Section -->
+    <div class="container-fluid bg-image d-flex flex-column justify-content-center align-items-center vh-100 text-center text-white">
+      <div class="overlay">
+        <h1 class="display-1 ">Mohamed Adel</h1>
+        <p class="lead mt-3">Graduated From FCI, ITI Student.</p>
+      </div>
+    </div>
+  
+    <!-- Second Section: Projects -->
+    <div class="container my-5">
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="imgs/mobile.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <p class="card-text project-hover" title="Mobile Projects">Mobile Projects via flutter.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="imgs/desktop2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+                <p class="card-text project-hover" title="Desktops Projects">Desktops Projects via PHP .</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img src="imgs/website.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+                <p class="card-text project-hover" title="Websites Projects">Website projects via bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <!-- -->
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------- -->
+      <!-- Footer Section -->
+  <!-- Footer Section -->
+<!-- Footer Section -->
+<!-- Footer Section -->
+<footer class="footer bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h5>Site Map</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h5>Follow Me</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://www.linkedin.com/in/mohamed-adel-8a72b3ab/"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mohamed-adel-8a72b3ab/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col text-center">
+          <p>&copy; 2024 Mohamed Adel. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+    
+  
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" integrity="sha384-c4jWuqWQHxhS/bTtIV7Jb9imYoaDo/C/5TO/mndEsI6yEC0IRP8iT2GmFfNykPRR" crossorigin="anonymous"></script>
+</body>
+</html>
